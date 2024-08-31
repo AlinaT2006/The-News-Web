@@ -1,0 +1,131 @@
+
+
+@media screen and (max-width: 1430px) {
+  .cards__wrap {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .header_nav {
+    gap: 120px;
+  }
+  .footer_nav {
+    gap: 120px;
+  }
+  .section_desc {
+    max-width: 450px;
+    padding: 20px 0;
+  }
+  
+  .banner__img {
+    width: 100%;
+    height: 100%;
+  }
+  .section__wrap {
+    flex-direction: column;
+  }
+  .section_desc {
+    max-width: 70%;
+  }
+  .section_desc-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .cards__wrap {
+    gap: 40px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .header_nav {
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_nav {
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
+
+@media screen and (max-width: 920px) {
+  .header_nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header_nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer_nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer_nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .header_nav-list {
+    justify-content: center;
+  }
+  .footer_nav-list {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:768px) {
+    .header_nav-list-item a {
+        font-size: 12px;
+    }
+    .footer_nav-list-item a {
+        font-size: 12px;
+    }
+    .cards__wrap {
+        gap: 20px;
+    }
+    .section__wrap {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .section_desc-title {
+        text-align: center;
+    }
+    .section_desc {
+        gap: 15px;
+    }
+  }
+
+@media screen and (max-width:520px) {
+    .header_nav-list {
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .footer_nav-list {
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .section_desc-text {
+      font-size: 12px;
+    }
+    .section_desc-title {
+      font-size: 15px;
+    }
+    .card1 {
+      height: 100%;
+    }
+    .card3 {
+      height: 100%;
+    }
+}
+
